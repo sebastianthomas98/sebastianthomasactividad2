@@ -5,25 +5,24 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
-    background-color: #f9fafb;
+    background-color: #f0f2f5;
     color: #2d3436;
+    line-height: 1.6;
 }
 
 
 header {
     background-color: #6c9a8b;
     color: white;
-    padding: 25px;
+    padding: 2rem 1rem;
     text-align: center;
 }
 
-
 nav ul {
     list-style: none;
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 
 nav ul li {
@@ -34,41 +33,69 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 8px 12px;
-    border-radius: 5px;
+    padding: 5px 15px;
+    border-radius: 20px;
     transition: 0.3s;
 }
 
-
-nav ul li a:hover {
-    background-color: #84b6a5;
+nav ul li a:hover, .active {
+    background-color: #557d70;
 }
 
-
+/* Contenido Principal */
 main {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 20px;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
     text-align: center;
 }
 
+h2 {
+    color: #6c9a8b;
+    margin-bottom: 1rem;
+}
 
-main p {
-    font-size: 18px;
-    margin-bottom: 20px;
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;
 }
 
 
-main img {
-    max-width: 100%;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+.btn {
+    display: inline-block;
+    background-color: #6c9a8b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #557d70;
+}
+
+.objetivos ul {
+    text-align: left;
+    display: inline-block;
+    margin-top: 1rem;
 }
 
 
 footer {
     background-color: #dfe6e9;
     text-align: center;
-    padding: 15px;
-    margin-top: 40px;
-    font-size: 14px;
+    padding: 1.5rem;
+    position: relative;
+    width: 100%;
+}
